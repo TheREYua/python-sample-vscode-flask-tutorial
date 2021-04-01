@@ -36,6 +36,6 @@ steps:
   displayName: 'pytest'
 
 - script: |
-    FLASK_APP=webapp
+    export FLASK_APP=webapp
     flask run
   displayName: 'test run'
